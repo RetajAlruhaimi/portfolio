@@ -19,6 +19,7 @@ jobs:
         with:
           workload_identity_provider: ${{ secrets.WIF_PROVIDOR }}
           service_accoutn: ${{ secrets.WIF_SERVICE_ACCOUNT }}
+          audience: sts.googleapis.com
 
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
