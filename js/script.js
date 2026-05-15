@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         break;
                     case 'cv':
                         response = "Opening CV...";
-                        action = () => window.open('https://drive.google.com/file/d/1EjAFW9PaA-53jmjdtTdDJqqr6wkRpJxv/view?usp=sharing', '_blank');
+                        action = () => window.open('https://drive.google.com/file/d/14kL8w88fsRbwdAbufNy3uTFMQfIRM2nY/view?usp=sharing', '_blank');
                         break;
                     case 'contact':
                         response = "Opening contact section...";
